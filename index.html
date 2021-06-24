@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script type="text/javascript">
+        
+        $(document).ready(function(){
+        $(window).scroll(function(){
+            if($(this).scrollTop() > 200){
+            $(".in-line").css({"width" : "75%"})
+            }
+            else {
+            $(".in-line").css({"width" : "0"})
+            }
+            if($(this).scrollTop() > 500){
+            $(".text1").css({"opacity" : "1"})
+            }
+            else {
+            $(".text1").css({"opacity" : "0"})
+            }
+            if($(this).scrollTop() > 1150){
+                $(".text2").css({"opacity" : "1"})
+            }else{
+                $(".text2").css({"opacity" : "0"})
+            }
+            if($(this).scrollTop() > 1800){
+                $(".tip-cont").css({"box-shadow" : "0px 0 20px 0px #1f1f1f"})
+                $("body").css({"background-color" : "#263238"})
+
+            }else{
+                $(".tip-cont").css({"box-shadow" : "0px 0 0px 0px #1f1f1f"})
+                $("body").css({"background-color" : "white"})
+
+            }
+            if($(this).scrollTop() > 5550){
+                
+                $(".text-end").css({"opacity" : "1"})
+
+            }else{
+            
+                $(".text-end").css({"opacity" : "0"})
+
+            }
+        })
+        })
+    </script>
+    <title>Tips Programming</title>
+    
+</head>
+<body>
+    <div class="main">
+        <!-- Title -->
+        <div class="intro">
+            <div class="container">
+                <div class="title left-cont">
+                    
+                    <div class="upper-title">
+                        <h1>JOURNEY OF LEARNING PROGRAMMING</h1><span>by johndel n. encabo</span>
+                    </div>
+                    <div class="sub-title">
+                        <h3>Learn Programming During Quarantine</h3>
+                    </div>
+                </div>
+                <div class="tpicture right-cont">
+                    <img src="./static/Asset 1.svg" alt="title-image">
+                </div>
+            </div>
+            
+        </div>
+        <div class="scroll-ani">
+            <div class="container">
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+                <div class="chevron"></div>
+            </div>
+        </div>
+        <!-- Next Scroll -->
+        <div class="text-cont">
+            <div class="in-line">
+                <div class="main-text text1">
+                    <p>As the pandemic starts, we all are stuck at home and some of us were so bored. To ease the boredom we use social media as entertainment and play games on another platform. But for me, this pandemic became an opportunity to focus my mind on my career in programming.</p>
+                </div>
+            </div>
+            <div class="in-line">
+                <div class="main-text text2">
+                    <p> I did self-paced studying, so the boredom I'm experiencing will be gone. To make the studying effective I did the following:
+                    </p>
+
+                   
+                </div>
+            </div>
+        </div>
+        <!-- TabTips  -->
+        <div class="contents-cont">
+            <div class="tip-cont">
+                <div class="left-cont"  style="background-color: #ffffff;">
+                    <div class="images-slide">
+                            <img src="./static/edx-logo-elm.svg" width="350px" height="300px" alt="">
+                    </div>
+                </div>
+                <div class="right-cont"">
+                    <div class="text-slide">
+                        <div class="slide title-slide">
+                            <h1>Joined on a Program/Course Online</h1>
+                        <h3>like
+                        <a href="https://www.edx.org/professional-certificate/harvardx-computer-science-for-web-programming?index=product&queryID=30cb92f2fe8715d2f7881e457b0346ac&position=2"> 
+                            CS50W 
+                        </a>
+                        </h3>
+                        </div>
+                        <div class="slide descrip-slide">
+                            <p>Join on a free course like edx program or udemy, because during the course there are projects that will need to do which helps in developing your skill. After finishing the course you will be given a certificate of completion which can be put on your portfolio.
+                                After, joined CS50W I watch their detailed discussion and they gave me 5 projects, which each project is correspond on the week you done watching.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="tip-cont">
+                <div class="left-cont" >
+                    <div class="text-slide">
+                        <div class="slide title-slide">
+                            <h1>Try To Watch Tutorials on <h1 style="color: #27DEBF;">Youtube</h1></h1>
+                            
+                        </div>
+                        <div class="slide descrip-slide">
+                            <p>If you are interested in something you could learn it by researching your learning material like youtube videos and google. Also, watching some vlog may help your eagerness to learn.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-cont" style="background-color: #ffffff;">
+                    <div class="images-slide">
+                        <img src="./static/watch-youtube.png" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="tip-cont">
+                <div class="left-cont" style="background-color: #ffffff;">
+                    <div class="images-slide">
+                        <img src="./static/project.svg" width="350px" height="300px" alt="">
+                        
+                    </div>
+                </div>
+                <div class="right-cont" >
+                    <div class="text-slide">
+                        <div class="slide title-slide">
+                            <h1>Create Your Own Mini Project
+                            </h1>
+                            <h3>after learning fundamentals</h3>
+                        </div>
+                        <div class="slide descrip-slide">
+                            <p>You can learn by creating your project. you can come up with the project you desire, make it simple so you could learn the basics. This way you can practice your skill.
+                                Like do calculator, scripts and many other.
+                            </p>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            <div class="tip-cont">
+                <div class="left-cont" >
+                    <div class="text-slide">
+                        <div class="slide title-slide">
+                            <h1>Have a Tutor</h1>
+                            <h3>when you have enough understanding</h3>
+                        </div>
+                        <div class="slide descrip-slide">
+                            <p>Sometimes to improve the current learning it's much better to share it by tutoring because this teaching of others might recall and improve your knowledge you already have or in short, you could learn from others even you know.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right-cont" style="background-color: #ffffff;">
+                    <div class="images-slide">
+                        <img src="./static/tutor.svg" width="350px" height="300px" alt="">
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="tip-cont">
+                <div class="left-cont" style="background-color: #212121;">
+                    <div class="images-slide">
+                        <img src="./static/V2.png" width="800px" alt="">
+                    </div>
+                </div>
+                <div class="right-cont" >
+                    <div class="text-slide">
+                        <div class="slide title-slide">
+                            <h1>Join an Organization</h1>
+                            <h3>like Media/Entertainment outlet</h3>
+                        </div>
+                        <div class="slide descrip-slide">
+                            <p>   It's very useful to join an organization to practice your skill especially if you will be a frontend developer because once you join any entertainment or media outlet, you'll need to work with people o a department which helps you to work with others, also you'll create something which will improve your skill in designs, UI and other aspects of layouts.
+                            </p>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="conclusion">
+            <div class="text-end">
+            <h2 style="color: #2ba9a9; position: sticky; font-size: 4rem; z-index: -2; margin: 0;">LAST</h2>
+            <p>But in the end, it depends on you in how you will learn about programming and improve yourselves on all aspects of it. Just try and try until you learn and succeed. But the best way to learn is to improve your discipline and to have more eagerness to learn. This journey will never end, we still fiscover new in this world, just keep on going.</p>
+
+            </div>
+        </div>
+
+        <div class="social-media-cont">
+            <h3>Visit me at:</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/thejohnds/" target="_blank" rel="noopener noreferrer">
+                    <div class="link-logo" style="background-image: url(./static/instagram.svg);"></div>
+
+                    <!-- <img class="link-logo" src="instagram.svg" alt="instagram"> -->
+                </a></li>
+                <li><a href="https://twitter.com/johndkalang" target="_blank" rel="noopener noreferrer"">
+                    <div class="link-logo" style="background-image: url(./static/twitter.svg);"></div>
+
+                    <!-- <img class="link-logo" src="twitter.svg" alt="twitter"> -->
+                </a></li>
+                <li><a href="https://www.facebook.com/johndel.En13/" target="_blank" rel="noopener noreferrer"">
+                    <!-- <img class="link-logo" src="facebook.svg" alt=""> -->
+                    <div class="link-logo" style="background-image: url(./static/facebook.svg);"></div>
+
+                </a></li>
+                <li><a href="https://github.com/cooldragon12/" target="_blank" rel="noopener noreferrer">
+                    <div class="link-logo" style="background-image: url(./static/github-sign.svg);"></div>
+                </a></li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
