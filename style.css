@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Poppins';
-  src: url("./static/font/Poppins-Black.ttf"), url("./static/font/Poppins-BlackItalic.ttf"), url("./static/font/Poppins-Bold.ttf"), url("./static/font/Poppins-BoldItalic.ttf"), url("./static/font/Poppins-ExtraLight.ttf"), url("./static/font/Poppins-Medium.ttf"), url("./static/font/Poppins-MediumItalic.ttf"), url("./static/font/Poppins-Regular.ttf"), url("./static/font/Poppins-SemiBold.ttf"), url("./static/font/Poppins-SemiBoldItalic.ttf"), url("./static/font/Poppins-Thin.ttf"), url("./static/font/Poppins-ThinItalic.ttf");
+  src: url("./static/font/Poppins-ExtraLight.ttf"), url("./static/font/Poppins-Medium.ttf"), url("./static/font/Poppins-MediumItalic.ttf"), url("./static/font/Poppins-Regular.ttf"), url("./static/font/Poppins-SemiBold.ttf"), url("./static/font/Poppins-SemiBoldItalic.ttf"), url("./static/font/Poppins-Thin.ttf"), url("./static/font/Poppins-ThinItalic.ttf");
 }
 
 ::-webkit-scrollbar-button {
